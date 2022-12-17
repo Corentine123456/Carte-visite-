@@ -1,0 +1,44 @@
+
+h1 {color: rgb(255, 255, 3);
+}
+h2 {color:aliceblue; background-color: #0000ff;
+}
+h3 {color: blue
+}
+h4 { color: black
+}
+
+
+
+div{
+ border: solid; color: rgb(240, 240, 240);
+}
+.parent {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav contenu contenu contenu"
+    "nav contenu contenu contenu"
+    "footer footer footer contact"; 
+    grid-template-columns: 306px 306px 306px 250px;
+    grid-template-rows: 150px 205px 100px 200px 90px
+}
+
+.header {
+    grid-area : header;
+}
+
+.nav {
+    grid-area: nav;
+
+}
+.contenu {
+    grid-area: contact;
+    background-image: url ("22.png")
+    background-size: contain;
+    background-repeat:  no-repeat;
+}
+.nav {
+    grid-area: nav;
+
+}
